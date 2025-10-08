@@ -10,8 +10,7 @@ const teachers = [
 
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
-const fourthTeacher = teachers.indexOf('Phil');
-console.log(fourthTeacher);
+const fourthTeacher = null;
 
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
@@ -23,6 +22,8 @@ const lastTeacher = null;
 const firstTeacher = null;
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+teachers.push('Vanessa')
+console.log(teachers);
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 teachers.unshift('Sarah')
